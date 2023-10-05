@@ -26,8 +26,12 @@ public class Ejercicio10 {
 		//Hacemos la condicional
 		if ((num1+num2) == num3) {
 			System.out.println("La suma de " + num1 + " y " + num2 + " es igual a " + num3);
-		} else System.out.println("La suma de " + num1 + " y1 " + num2 + " NO es igual a " + num3);
-
+		} else if ((num1+num3) == num2) {
+			System.out.println("La suma de " + num1 + " y " + num3 + " es igual a " + num2);
+		} else if ((num2+num3) == num1) {
+			System.out.println("La suma de " + num2 + " y " + num3 + " es igual a " + num1);
+		} else System.out.println("Ninguna de las combinaciones de suma de 2 de los números resulta en el sobrante");
+			
 		//Cerramos el escaner
 		sc.close();
 	}
