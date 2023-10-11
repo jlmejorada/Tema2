@@ -38,7 +38,7 @@ public class Ejercicio2 {
 				System.out.println("Domingo");
 				}
 			default -> {
-				System.out.println("Esa nota no es posible");
+				System.out.println("Este día no existe");
 				}
 				}
 				
