@@ -15,6 +15,7 @@ public class Ejercicio1 {
 		System.out.println("Dame el número entero de tu nota");
 		num= sc.nextInt();
 		
+		
 		switch (num) {
 		case 0, 1, 2, 3, 4 -> {
 			System.out.println("INSUFICIENTE");
