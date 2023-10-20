@@ -23,7 +23,7 @@ public class Ejercicio5 {
 			cond = sc.nextLine();
 			
 			if (cond.equals("mayor")) {
-				min = alt;
+				min = alt + 1;
 			} else if (cond.equals("menor")) {
 				max = alt;
 			}
